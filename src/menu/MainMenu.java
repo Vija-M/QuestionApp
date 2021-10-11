@@ -46,7 +46,7 @@ public class MainMenu {
                 System.out.println("Here will be questions");
                 System.out.println(Utility.GREEN);
                 System.out.println(Arrays.toString(qArray));
-                System.out.println(Utility.VIOLET + "----");
+                System.out.println(Utility.PURPLE + "----");
                 break;
             case 2:
                 printOutAllAnswers(scanner, menuNumber);
