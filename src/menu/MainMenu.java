@@ -123,10 +123,8 @@ public class MainMenu {
 
         if (inputSelection >= 0
                 && inputSelection <= numberOfQuestions - 1) {
-
             String answerText;
             Answer answer;
-
             System.out.println("You are answering this question: " + qArray[inputSelection]);
             System.out.println(String.format("Thank you %s ,please write your answer: ", name));
             answerText = scanner.nextLine();
@@ -149,6 +147,7 @@ public class MainMenu {
             System.out.println("There is no questions with this number, please try again.");
         }
     }
+
 
     public static void createNewQuestion(Scanner scanner) {
         // creating new question

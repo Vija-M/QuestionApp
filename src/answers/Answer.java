@@ -27,7 +27,7 @@ public class Answer {
     }
 
     public void setLikes(int likes) {
-        if (likes>=0) {
+        if (likes >= 0) {
             this.likes = likes;
         }
     }
@@ -37,7 +37,7 @@ public class Answer {
     }
 
     public void setDislikes(int dislikes) {
-        if (dislikes>=0) {
+        if (dislikes >= 0) {
             this.dislikes = dislikes;
         }
     }

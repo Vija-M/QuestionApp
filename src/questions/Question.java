@@ -1,6 +1,7 @@
 package questions;
 
 import answers.Answer;
+
 import java.time.LocalDateTime;
 import java.util.Arrays;
 
@@ -40,10 +41,10 @@ public class Question {
     }
 
     public void setAnswer(Answer answer) {
-        if (answer != null && numberOfAnswers < this.answer.length){
+        if (answer != null && numberOfAnswers < this.answer.length) {
             this.answer[numberOfAnswers] = answer;
             numberOfAnswers++;
-        }else {
+        } else {
             System.out.println("The answers for this question is full. Apologies.");
         }
     }
